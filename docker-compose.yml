@@ -3,3 +3,4 @@ services:
   bot:
     build: ./src
     env_file: .env
+    restart: always
