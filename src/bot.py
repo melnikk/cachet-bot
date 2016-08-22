@@ -29,9 +29,9 @@ def show_incidents(message):
             answer = '- %s (%s)' % (item['name'], item['human_status'])
 
             if item['component'] is not None:
-                answer += '\n  Затронут сервис: % s' % item['component']['name']
+                answer += '\n  _Затронут сервис: %s_' % item['component']['name']
 
-            bot.send_message(message.chat.id, answer)
+            bot.send_message(message.chat.id, answer, parse_mode='Markdown')
 
 
 print('Bot started')
