@@ -1,6 +1,6 @@
 Cachet Telegram Bot
 ===================
-Bot for manage cachethq.io status pages
+Bot for manage [Cachet](https://github.com/CachetHQ/Cachet) status pages
 
 Setup
 -----
